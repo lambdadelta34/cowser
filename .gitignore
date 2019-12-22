@@ -1,0 +1,6 @@
+dist
+dist-*
+cabal-dev
+result
+cabal.project.local*
+.DS_Store

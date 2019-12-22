@@ -1,0 +1,23 @@
+cabal-version:       2.4
+name:                cowser
+version:             0.1.0.0
+synopsis:            Code owners coverage checker
+description:         Finds not owned folders/files
+license:             MIT
+license-file:        LICENSE
+author:              lambdadelta
+maintainer:          waterdropfalls@gmail.com
+build-type:          Simple
+extra-doc-files:     README.md
+
+executable cowser
+  hs-source-dirs:      app
+  main-is:             Main.hs
+  build-depends:       base >=4.12 && <4.14
+  default-language:    Haskell2010
+
+test-suite test-cowser
+  hs-source-dirs:      test
+  type:                exitcode-stdio-1.0
+  main-is:             Main.hs
+  build-depends:       base >=4.12 && <4.14

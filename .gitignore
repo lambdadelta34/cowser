@@ -4,3 +4,6 @@ cabal-dev
 result
 cabal.project.local*
 .DS_Store
+stack.yaml
+stack.yaml.lock
+.stack-work/
